@@ -2,13 +2,13 @@ fn main() {
     let name = "Kain";
     println!("\nlet us practice on the Shadowing concept, My name is {name}.");
 
-    let name = "カイン";
+    let name = "카인";
     println!("Now My name is {name}.\n");
 
     {
         println!("In the brackets. My name is {name}.\n");
 
-        let name = "スペースを探せ";
+        let name = "띄어쓰기";
         println!("What about NOW? My name is \"{name}\".");
 
         let name = "                 ";
